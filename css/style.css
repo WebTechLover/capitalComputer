@@ -62,13 +62,42 @@ html, body {
     background: #FF6F91;
     font-size: 100px;
 }
-.card{
+.iconcard{
   font-size: 80px;
 }
 .card-title {
     margin-bottom: .75rem;
 }
 /*Card Style CSS End Here*/
+
+/*Tesimonial Card style start here*/
+.testimonials_card3 {
+  background: #ffffff;
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.04);
+}
+​
+.testimonials_card3 .card_image {
+width: 80px;
+  height: 80px;
+  font-size: 30px;
+}
+.testimonials_card3 .card-icon {
+  top: 17px;
+  left: 25px;
+  color: #456EDA;
+  font-size: 100px;
+  opacity: 0.1;
+  z-index: 0;
+  line-height: 100px;
+}
+​
+.testimonials_card3 .card-icon.card-icon2 {
+  top: unset;
+  bottom: 16px;
+  left: unset;
+  right: 24px;
+}
+/*Testimonaial card style here*/
 .contact_div{
   line-height: 1.6;
 }
