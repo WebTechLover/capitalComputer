@@ -106,3 +106,37 @@ width: 80px;
   font-size: 40px;
   color: yellow;
 }
+.footer_icon {
+  font-size: 40px;
+}
+/*Headre Style start Here*/
+.header_menus .nav-item .dropdown-menu {
+    top: 72px !important;
+    padding: 5px 0;
+    border-radius: 3px;
+    box-shadow: 0 0px 45px #ccc;
+    border: none;
+}
+.header_menus .nav-item div.dropdown-menu::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    top: -10px;
+    left: 15px;
+}
+.header_menus .dropdown-item {
+    padding: 7px 15px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.active{
+  background-color:#fcba03;
+  color:#fff;
+
+}
+/*Headre Style End Here*/

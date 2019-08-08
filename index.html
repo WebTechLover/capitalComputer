@@ -21,10 +21,10 @@
 </head>
 <body>
 	<!-- Header Start -->
- 	<	header class="header_design1" id="header">
+ 	<header class="header_design1" id="header">
  		<div class="container">
-	 		<div class="row">
-		 		<nav class="navbar navbar-expand-lg navbar-light w-100  text-uppercase">
+	 		<div class="row header_menus">
+		 		<nav class="navbar navbar-expand-lg navbar-light w-100 py-0">
 					<a class="navbar-brand font-weight-bold d-inline-block" href="#">
 						<!-- Company Logo -->
 						<!-- <img class="logo-image img-fluid" src="images/companysite_logo.png" alt="companysite" /> -->Logo
@@ -35,14 +35,22 @@
 
 					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 						<ul class="navbar-nav ml-auto mt-2 mt-lg-0 font-weight-bold">
-							<li class="nav-item active">
+							<li class="nav-item" id="home_menue">
 								<a class="nav-link px-3 py-3"  href="#home">Home</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link px-3 py-3" href="#about">About</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link px-3 py-3" href="#about">Services</a>
+							<li class="nav-item dropdown show">
+								<a class="nav-link dropdown-toggle px-3 py-3" data-toggle="dropdown" href="/tutorials" role="button" aria-haspopup="true" aria-expanded="true">Srvices</a>
+                                <div class="dropdown-menu hide">
+                                    <a class="dropdown-item" href="/c++.html">Certificates</a>
+                                    <a class="dropdown-item" href="/java.html">Diploma</a>
+                                    <a class="dropdown-item" href="/python.html">Under Graduate</a>
+                                    <a class="dropdown-item" href="/javascript.html">Post Graduate </a>
+                                    <a class="dropdown-item" href="/html-and-css.html">Syllabus</a>
+                                    <a class="dropdown-item" href="/html-and-css.html">Result</a>
+                                </div>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link px-3 py-3" href="#about">Blog</a>
@@ -129,7 +137,7 @@
 					 		<i class="fas fa-graduation-cap"></i>
 						</div>
 						<div class="card-body text-center">
-							<h5 class="card-title font-weight-bold">MBA</h5>
+							<h5 class="card-title font-weight-bold">Certificates</h5>
 				      	</div>
 					</div>
 					<!-- Card code start End Here -->
@@ -141,7 +149,7 @@
 					 		<i class="fas fa-graduation-cap"></i>
 						</div>
 						<div class="card-body text-center">
-							<h5 class="card-title font-weight-bold">BBA</h5>
+							<h5 class="card-title font-weight-bold">Diploma</h5>
 				      	</div>
 					</div>
 					<!-- Card code start End Here -->
@@ -153,7 +161,7 @@
 					 		<i class="fas fa-graduation-cap"></i>
 						</div>
 						<div class="card-body text-center">
-							<h5 class="card-title font-weight-bold">BCA</h5>
+							<h5 class="card-title font-weight-bold">Post Graduate</h5>
 				      	</div>
 					</div>
 					<!-- Card code start End Here -->
@@ -165,7 +173,7 @@
 					 		<i class="fas fa-graduation-cap"></i>
 						</div>
 						<div class="card-body text-center">
-							<h5 class="card-title font-weight-bold">B.COM</h5>
+							<h5 class="card-title font-weight-bold">Syllabus</h5>
 				      	</div>
 					</div>
 					<!-- Card code start End Here -->
@@ -177,31 +185,7 @@
 					 		<i class="fas fa-graduation-cap"></i>
 						</div>
 						<div class="card-body text-center">
-							<h5 class="card-title font-weight-bold">BBA (FT)</h5>
-				      	</div>
-					</div>
-					<!-- Card code start End Here -->
-	 			</div>
-	 			<div class="col">
-	 				<!-- Card code start here -->
-					<div class="card mb-3 card_with_icon3 pt-3 border-0">
-						<div class="classard-icon iconcard rounded-circle mx-auto text-center text-darck ">
-					 		<i class="fas fa-graduation-cap"></i>
-						</div>
-						<div class="card-body text-center">
-							<h5 class="card-title font-weight-bold">B.Sc.</h5>
-				      	</div>
-					</div>
-					<!-- Card code start End Here -->
-	 			</div>
-	 			<div class="col">
-	 				<!-- Card code start here -->
-					<div class="card mb-3 card_with_icon3 pt-3 border-0">
-						<div class="classard-icon iconcard rounded-circle mx-auto text-center text-darck ">
-					 		<i class="fas fa-graduation-cap"></i>
-						</div>
-						<div class="card-body text-center">
-							<h5 class="card-title font-weight-bold">More</h5>
+							<h5 class="card-title font-weight-bold">Result</h5>
 				      	</div>
 					</div>
 					<!-- Card code start End Here -->
@@ -298,9 +282,9 @@
 	 		<div class="row">
 	 			<div class="col">
 					<!-- Card code start here -->
-						<div class="card mb-3 py-5 testimonials_card3 position-releative border-0 rounded-lg" style="max-width: 400px; margin: 100px auto;">
+						<div class="card mb-3 py-5 testimonials_card3 position-releative border-0 rounded-lg">
 							<div class="mx-auto text-center py-2">
-						 		<img  class="card_image img-thumbnail" src="images/p_1.jpg">
+						 		<img  class="card_image img-thumbnail" src="images/director_capital.jpg">
 						 		<div class="card-icon position-absolute">
 							 		<i class="fas fa-quote-left"></i>
 								</div>
@@ -309,18 +293,18 @@
 								</div>
 							</div>
 							<div class="card-body text-center">
-								<p class="card-text mb-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-								<h5 class="card-title font-weight-bold">Rishabh Web</h5>
-								<p><small class="text-secondary"> - Software Developer</small></p>
+								<p class="card-text mb-3">To get good education, hard work has to be done. Fire burns only by fire.</p>
+								<h5 class="card-title font-weight-bold">Bhanu Prakash</h5>
+								<p><small class="text-secondary"> - Director of Capital Computer</small></p>
 					      	</div>
 						</div>
 					<!-- Card code End Here -->
 	 			</div>
 	 			<div class="col">
 					<!-- Card code start here -->
-					<div class="card mb-3 py-5 testimonials_card3 position-releative border-0 rounded-lg" style="max-width: 400px; margin: 100px auto;">
+					<div class="card mb-3 py-5 testimonials_card3 position-releative border-0 rounded-lg">
 						<div class="mx-auto text-center py-2">
-					 		<img  class="card_image img-thumbnail" src="images/p_1.jpg">
+					 		<img  class="card_image img-thumbnail" src="images/ceo_capital.jpg">
 					 		<div class="card-icon position-absolute">
 						 		<i class="fas fa-quote-left"></i>
 							</div>
@@ -329,9 +313,9 @@
 							</div>
 						</div>
 						<div class="card-body text-center">
-							<p class="card-text mb-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-							<h5 class="card-title font-weight-bold">Rishabh Web</h5>
-							<p><small class="text-secondary"> - Software Developer</small></p>
+							<p class="card-text mb-3">Good knowledge shows life's right and right direction. And give more time to your work, which will boost your knowledge.</p>
+							<h5 class="card-title font-weight-bold">Mrs. Alka Lakhera</h5>
+							<p><small class="text-secondary"> - CEO of Capital Computer</small></p>
 				      	</div>
 					</div>
 					<!-- Card code start End Here -->
@@ -345,56 +329,46 @@
  	<footer class="footer_style1 p_t_60 f_14_18">
         <div class="container">
             <div class="row">
-                <div id="mc4wp_form_widget-4" class="col-md-3 widget widget_mc4wp_form_widget">
-                    <h3 class="widget-title f_20_26 m_b_20 text-uppercase">Get Latest Updates on your email</h3>
-                    <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-288" method="post" data-id="288" data-name="Subscription Form">
-                        <div class="mc4wp-form-fields">
-                            <input class="form-control mb-3 pl-2" type="email" name="EMAIL" placeholder="Your email address" required="">
-                            <input class="btn btn-secondary mb-3" type="submit" value="Subscribe Now">
-                        </div>
-                        <label style="display: none !important;">Leave this field empty if you're human:
-                            <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off">
-                        </label>
-                        <input type="hidden" name="_mc4wp_timestamp" value="1561890282">
-                        <input type="hidden" name="_mc4wp_form_id" value="288">
-                        <input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1">
-                        <div class="mc4wp-response"></div>
-                    </form>
-                    <!-- / Mailchimp for WordPress Plugin -->
-                </div>
-                <div id="nav_menu-3" class="col-md-3 widget widget_nav_menu">
-                    <h3 class="widget-title f_20_26 m_b_20 text-uppercase">Informations</h3>
-                    <div class="menu-informations-container">
-                        <ul id="menu-informations" class="menu">
-                            <li id="menu-item-394" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-394"><a href="/faqs/">FAQs</a>
-                            </li>
-                            <li id="menu-item-280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-280"><a href="/terms-and-conditions/">Terms and Conditions</a>
-                            </li>
-                            <li id="menu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-279"><a href="/privacy-policy/">Privacy Policy</a>
-                            </li>
-                            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-278"><a href="/sitemap/">Sitemap</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="nav_menu-4" class="col-md-3 widget widget_nav_menu">
-                    <h3 class="widget-title f_20_26 m_b_20 text-uppercase">Tools</h3>
+                <div class="col-md-4 widget widget_nav_menu">
+                	 <h3 class="widget-title f_20_26 m_b_20 text-uppercase">Contact</h3>
                     <div class="menu-tools-container">
                         <ul id="menu-tools" class="menu">
-                            <li id="menu-item-393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393"><a href="/faqs/">FAQs</a>
+                            <li class="px-3 py-3">
+                            	<i class="fas fa-phone-alt"></i>
+                            	<span>+9186 04 080 460</span>
+                            </li>
+                            <li class="px-3 py-3">
+                            	<i class="far fa-envelope "></i>
+                            	<span>capitalcomputerorai@gmail.com</span>
+                            </li>
+                            <li class="px-3 py-3">
+                            	<i class="fas fa-map-marker-alt"></i>
+                            	<span>Gandhi Market Rajmarg Orai</span>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div id="nav_menu-6" class="col-md-3 widget widget_nav_menu">
-                    <h3 class="widget-title f_20_26 m_b_20 text-uppercase">Help and Support</h3>
+                <div class="col-md-4 widget widget_nav_menu">
+                    <h3 class="widget-title f_20_26 m_b_20 text-uppercase text-center">Capital Computer</h3>
+                    <div class="menu-help-and-support-container text-center">
+                         <img src="images/cvru_logo.jpeg">
+                    </div>
+                   
+                </div>
+                <div class="col-md-4 widget widget_nav_menu">
+                    <h3 class="widget-title f_20_26 m_b_20 text-uppercase">About The Capital</h3>
                     <div class="menu-help-and-support-container">
-                        <ul id="menu-help-and-support" class="menu">
-                            <li id="menu-item-284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-284"><a href="/faqs/">FAQs</a>
-                            </li>
-                            <li id="menu-item-285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-285"><a href="/contact/">Contact</a>
-                            </li>
-                        </ul>
+                        <p>We make our students better education and better practice So far, the results of our courses or the results of our studies have been explained through the following numbers.</p>
+                         
+                    </div>
+                    <div class="col-md-3 d-inline-block footer_icon">
+                    	<i class="fab fa-facebook-f footer_icon"></i>
+                    </div>
+                    <div class="col-md-4 d-inline-block footer_icon">
+                    	<i class="fab fa-twitter footer_icon"></i>
+                    </div>
+                    <div class="col-4 d-inline-block footer_icon">
+                    	<i class="fab fa-github"></i>
                     </div>
                 </div>
             </div>
