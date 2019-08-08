@@ -98,17 +98,7 @@ width: 80px;
   right: 24px;
 }
 /*Testimonaial card style here*/
-.contact_div{
-  line-height: 1.6;
-}
 
-.information_icon{
-  font-size: 40px;
-  color: yellow;
-}
-.footer_icon {
-  font-size: 40px;
-}
 /*Headre Style start Here*/
 .header_menus .nav-item .dropdown-menu {
     top: 72px !important;
@@ -140,3 +130,44 @@ width: 80px;
 
 }
 /*Headre Style End Here*/
+/*Faculity style start here*/
+.accordion_design2 {
+    background: #ffffff;
+}
+​
+.accordion_design2 .card-header {
+  background: #FF6F91;
+}
+​
+.accordion_design2 .card-header a {
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+​
+.accordion_design2 .card-header a i {
+  right: 15px;
+  top: 18px;
+}
+​
+.accordion_design2 .card-header a.collapsed i.fa-caret-down,
+.accordion_design2 .card-header a i.fa-caret-left {
+  display: block !important;
+}
+​
+.accordion_design2 .card-header a i.fa-caret-down,
+.accordion_design2 .card-header a.collapsed i.fa-caret-left {
+  display: none !important;
+}
+/*Faculity style End here*/
+.contact_div{
+  line-height: 1.6;
+}
+
+.information_icon{
+  font-size: 40px;
+  color: yellow;
+}
+.footer_icon {
+  font-size: 40px;
+}
