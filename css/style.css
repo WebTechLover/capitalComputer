@@ -129,7 +129,14 @@ width: 80px;
   color:#fff;
 
 }
+a img {
+  height: 46px;
+  width: 68px;
+  padding-right: 10px;
+}
+
 /*Headre Style End Here*/
+
 /*Faculity style start here*/
 .accordion_design2 {
     background: #ffffff;
@@ -170,4 +177,8 @@ width: 80px;
 }
 .footer_icon {
   font-size: 40px;
+}
+
+.slider_image{
+  height: 350px;
 }

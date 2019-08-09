@@ -16,7 +16,13 @@ $(document).on('ready', function() {
 	// Slider start here
 	$(".lazy").slick({
     	lazyLoad: 'ondemand', // ondemand progressive anticipated
-    	infinite: true
+    	infinite: true,
+    	autoplay: true, /* this is the new line */
+      autoplaySpeed: 2000,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      touchThreshold: 1000
   	});
   	// Slider End here
 });

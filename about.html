@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Capital Computer</title>
+  <title>Store Home Page - Based on Wireframe</title>
 	      
 	<!-- Required meta tags -->
 	<meta charset="UTF-8">
@@ -27,7 +27,7 @@
 		 		<nav class="navbar navbar-expand-lg navbar-light w-100 py-0">
 					<a class="navbar-brand font-weight-bold d-inline-block" href="#">
 						<!-- Company Logo -->
-						<img class="logo-image" src="images/logo.png" alt="companysite" width="100" height="50"/>Capital Computer
+						<!-- <img class="logo-image img-fluid" src="images/companysite_logo.png" alt="companysite" /> -->Logo
 					</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -36,39 +36,27 @@
 					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 						<ul class="navbar-nav ml-auto mt-2 mt-lg-0 font-weight-bold">
 							<li class="nav-item" id="home_menue">
-								<a class="nav-link px-3 py-3"  href="#">Home</a>
-								<!-- index.html -->
+								<a class="nav-link px-3 py-3"  href="#home">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link px-3 py-3" href="#">About</a>
-								<!-- about.html -->
+								<a class="nav-link px-3 py-3" href="#about">About</a>
 							</li>
 							<li class="nav-item dropdown show">
-								<a class="nav-link dropdown-toggle px-3 py-3" data-toggle="dropdown" href="/tutorials" role="button" aria-haspopup="true" aria-expanded="true">Courses</a>
+								<a class="nav-link dropdown-toggle px-3 py-3" data-toggle="dropdown" href="/tutorials" role="button" aria-haspopup="true" aria-expanded="true">Srvices</a>
                                 <div class="dropdown-menu hide">
-                                    <a class="dropdown-item" href="#">Certificates</a>
-                                    <!-- certificates.html -->
-                                    <a class="dropdown-item" href="#">Diploma</a>
-                                    <!-- Diploma.html -->
-                                    <a class="dropdown-item" href="#">Under Graduate</a>
-                                    <!-- under-graduate.html -->
-                                    <a class="dropdown-item" href="#">Post Graduate</a>
-                                    <!-- post-graduate.html -->
-                                    <a class="dropdown-item" href="#">Syllabus</a>
-                                    <!-- syllabus.html -->
-                                    <a class="dropdown-item" href="#">Result</a>
-                                    <!-- result.html -->
-                                    <a class="dropdown-item" href="#">Faculity</a>
-                                    <!-- faculity.html -->
+                                    <a class="dropdown-item" href="/c++.html">Certificates</a>
+                                    <a class="dropdown-item" href="/java.html">Diploma</a>
+                                    <a class="dropdown-item" href="/python.html">Under Graduate</a>
+                                    <a class="dropdown-item" href="/javascript.html">Post Graduate </a>
+                                    <a class="dropdown-item" href="/html-and-css.html">Syllabus</a>
+                                    <a class="dropdown-item" href="/html-and-css.html">Result</a>
                                 </div>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link px-3 py-3" href="#">Portfolio</a>
-								<!-- portfolio.html -->
+								<a class="nav-link px-3 py-3" href="#about">Blog</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link px-3 py-3" href="#">Contact</a>
-								<!-- contact.html -->
+								<a class="nav-link px-3 py-3" href="#about">Contact</a>
 							</li>
 						</ul>
 						 
@@ -78,23 +66,29 @@
 		</div>
  	</header>
  	<!-- Header End -->
-	<div class="container-fluid">
-		<div class="row mr-0">
-			<div class="col-md">
-				<section class="lazy slider">
-					<div class="slider_image">
-						<img class="img-responsive" data-lazy="images/s3.png" data-sizes="100vw">
-					</div>
-					<div class="slider_image">
-						<img class="img-responsive" data-lazy="images/s3.png" data-sizes="100vw">
-					</div>
-					<div class="slider_image">
-						<img class="img-responsive"  data-lazy="images/s3.png" data-sizes="100vw">
-					</div>
-				</section>
-			</div>
-	 	</div>
-	</div>
+ 	<div class="row mr-0">
+ 		<section class="lazy slider" data-sizes="50vw">
+		<div>
+			<img data-lazy="http://placehold.it/350x300?text=1-350w" data-srcset="http://placehold.it/650x300?text=1-650w 650w, http://placehold.it/960x300?text=1-960w 960w" data-sizes="100vw">
+		</div>
+		<div>
+			<img data-lazy="http://placehold.it/350x300?text=2-350w" data-srcset="http://placehold.it/650x300?text=2-650w 650w, http://placehold.it/960x300?text=2-960w 960w" data-sizes="100vw">
+		</div>
+		<div>
+			<img data-lazy="http://placehold.it/350x300?text=3-350w"  data-srcset="http://placehold.it/650x300?text=3-650w 650w, http://placehold.it/960x300?text=3-960w 960w" data-sizes="100vw">
+		</div>
+		<div>
+			<img data-lazy="http://placehold.it/350x300?text=4-350w"  data-srcset="http://placehold.it/650x300?text=4-650w 650w, http://placehold.it/960x300?text=4-960w 960w" data-sizes="100vw">
+		</div>
+		<div>
+			<img data-lazy="http://placehold.it/350x300?text=5-350w"  data-srcset="http://placehold.it/650x300?text=5-650w 650w, http://placehold.it/960x300?text=5-960w 960w" data-sizes="100vw">
+		</div>
+		<div>
+			<!-- this slide should inherit the sizes attr from the parent slider -->
+			<img data-lazy="http://placehold.it/350x300?text=6-350w"  data-srcset="http://placehold.it/650x300?text=6-650w 650w, http://placehold.it/960x300?text=6-960w 960w">
+		</div>
+	</section>
+ 	</div>
 	
  	<div class="container-fluid bg-primary">
  		<div class="row ml-5">
@@ -103,7 +97,7 @@
  					<i class="fas fa-phone-alt"></i>
  				</div>
  				<div class="d-inline-block mt-4 text-white">
- 					<p>Phone number<br/>+91 86 04 080 460</p>
+ 					<p>Phone number<br/>8956323256</p>
  				</div>
  				
  			</div>
@@ -112,7 +106,7 @@
  					<i class="far fa-envelope"></i>
  				</div>
  				<div class="d-inline-block mt-4 text-white">
-					<p>Email Address<br/>capitalcomputerorai@gmail.com</p> 					
+					<p>Email Address<br/>xyz12@gmail.com</p> 					
  				</div>
 
  			</div>
@@ -121,7 +115,7 @@
  					<i class="fas fa-map-marker-alt"></i>
  				</div>
  				<div class="d-inline-block mt-4 text-white">
- 					<p>Office Address<br/>Gandhi market orai 285001(UP)</p>
+ 					<p>Office Address<br/>1725-New rajendra nagar karmer road orai 285001(UP)</p>
  				</div>
 
  			</div>
@@ -132,7 +126,7 @@
  		<div class="container">
  			<div class="row">
 	 			<div class="col text-center mb-5">
-	 			  <h2 class="section_heading"><b>OUR COURSES</b></h2>
+	 			  <h2 class="section_heading"><b>OUR SERVICES</b></h2>
 	 			</div>
 	 		</div>
 	 		<div class="row">
@@ -216,19 +210,19 @@
                     <div class="col-12 col-md-4">
                         <div class="card-facts order-0 text-center text-white">
                             <div class="card-text f_18_22 text-uppercase m_b_20">Years of experience</div>
-                            <div class="card-number font-weight-bold f_30_34 m_b_20">2002</div>
+                            <div class="card-number font-weight-bold f_30_34 m_b_20">1+</div>
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="card-facts order-0 text-center text-white">
-                            <div class="card-text f_18_22 text-uppercase m_b_20">Total Awards</div>
-                            <div class="card-number font-weight-bold f_30_34 m_b_20">5+</div>
+                            <div class="card-text f_18_22 text-uppercase m_b_20">Total Project</div>
+                            <div class="card-number font-weight-bold f_30_34 m_b_20">3+</div>
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="card-facts order-0 text-center text-white">
-                            <div class="card-text f_18_22 text-uppercase m_b_20">Total Placements</div>
-                            <div class="card-number font-weight-bold f_30_34 m_b_20">800+</div>
+                            <div class="card-text f_18_22 text-uppercase m_b_20">Total Products</div>
+                            <div class="card-number font-weight-bold f_30_34 m_b_20">1+</div>
                         </div>
                     </div>
                 </div>
@@ -282,7 +276,7 @@
  		<div class="container">
  			<div class="row">
 	 			<div class="col text-center mb-5">
-	 			  <h2 class="section_heading"><b>Director Thoughts</b></h2>
+	 			  <h2 class="section_heading"><b>Dirctor Thoughts</b></h2>
 	 			</div>
 	 		</div>
 	 		<div class="row">
@@ -357,7 +351,7 @@
                 <div class="col-md-4 widget widget_nav_menu">
                     <h3 class="widget-title f_20_26 m_b_20 text-uppercase text-center">Capital Computer</h3>
                     <div class="menu-help-and-support-container text-center">
-                         <img src="images/capital_logo_image.jpg">
+                         <img src="images/cvru_logo.jpeg">
                     </div>
                    
                 </div>
