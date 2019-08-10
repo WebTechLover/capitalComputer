@@ -9,7 +9,7 @@ html, body {
 }
  
 .slick_slider {
-  max-height: 500px;
+  max-height: 480px;
   overflow: hidden;
 }
 
@@ -170,12 +170,12 @@ a img {
   line-height: 1.6;
 }
 
-.information_icon{
+.information_icon {
   font-size: 40px;
   color: yellow;
 }
 .footer_icon {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .slider_image{
@@ -192,4 +192,21 @@ a img {
 
 .universty_cards img {
     max-height: 186px;
+}
+
+.footer_logo_image{
+  max-width: 195px;
+  max-height: 240px;
+}
+
+.footer_logo_section{
+  position: relative; 
+  left: 33px;
+}
+
+.director_thought_section{
+  max-width: 450px;
+}
+.director_thought_h {
+  height: 402px;
 }
